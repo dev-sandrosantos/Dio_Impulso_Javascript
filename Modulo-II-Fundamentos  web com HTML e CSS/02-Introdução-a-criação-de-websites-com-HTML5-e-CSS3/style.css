@@ -1,0 +1,23 @@
+#title, .subtitle, .postTitle{
+    color: blue;
+}
+.postTitle{
+    font-size: 16px;
+    font-style: italic;
+}
+
+body{
+    background: #FCFCFC;
+}
+
+.post{
+    background: #FFF;
+    padding: 10px;
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
