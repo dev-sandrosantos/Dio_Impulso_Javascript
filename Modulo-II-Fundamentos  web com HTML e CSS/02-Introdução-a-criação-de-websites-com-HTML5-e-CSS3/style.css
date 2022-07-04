@@ -1,23 +1,52 @@
 #title, .subtitle, .postTitle{
-    color: blue;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #505050;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 .postTitle{
     font-size: 16px;
     font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 body{
-    background: #FCFCFC;
+    background-color: #f7f7f7;
+    max-width: 900px;
+    margin: auto;
 }
 
 .post{
-    background: #FFF;
-    padding: 10px;
-    border: 2px solid #000;
-    margin: 10px;
+    background-color: #FFF;
+    padding: 15px;
+    border: 2px solid #505050;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-img {
+.post-img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 15px;
+  }
+
+  .perfil_img{
+    border: solid #505050;
+    border-radius: 15%;
+  }
+
+  .postContent{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+
+  .contactsList{
+    margin: 0px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    padding: 15px;
   }
