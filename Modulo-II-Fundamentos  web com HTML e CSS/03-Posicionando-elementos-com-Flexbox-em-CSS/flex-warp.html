@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conseito flex wrap</title>
+    <style>
+        .flex-Container{
+            display: flex;
+            height: 150px;
+            max-width: 310px;
+            border: 2px solid black;
+        }
+        .item{
+            font-size: 24px;
+            text-align: center;
+            height: 50%;
+            min-width: 100px;
+            line-height: 50px;
+        }
+        .sem-wrap{
+            flex-wrap: nowrap;
+        }
+        .com-wrap{
+            flex-wrap: wrap;
+        }
+        .com-wrap-reverse{
+            flex-wrap: wrap-reverse;
+        }
+        .azul{
+            background-color: blueviolet;
+        }
+        .verde{
+            background-color: lightgreen;
+        }
+        .laranja{
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sem Wrap</h1>
+    <div class="flex-Container sem-wrap">
+        <div class="item azul">1</div>
+        <div class="item verde" >2</div>
+        <div class="item laranja">3</div>
+        <div class="item azul">4</div>
+    </div>
+    <h1>Com Wrap</h1>
+    <div class="flex-Container com-wrap">
+        <div class="item azul">1</div>
+        <div class="item verde" >2</div>
+        <div class="item laranja">3</div>
+        <div class="item azul">4</div>
+    </div>
+    <h1>Com Wrap-reverse</h1>
+    <div class="flex-Container com-wrap-reverse">
+        <div class="item azul">1</div>
+        <div class="item verde" >2</div>
+        <div class="item laranja">3</div>
+        <div class="item azul">4</div>
+    </div>
+</body>
+</html>
