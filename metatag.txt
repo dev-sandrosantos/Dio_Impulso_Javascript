@@ -1,0 +1,2 @@
+1. Copy this meta-tag:
+<meta name="facebook-domain-verification"content="p8wp9hx3yk99omaithvka7q3lipbgp"/>

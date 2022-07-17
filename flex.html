@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos flex</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1.5px solid black;
+            max-width: 400px;
+            margin: 10px;
+        }
+        .myitens{
+            background-color: brown;
+            font-size: 24;
+            text-align: center;
+            color: white;
+            margin: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .flex-1{
+            flex: 1;
+        }
+        .flex-2{
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <p class="myitens">Flex: 1</p>
+    <div class="flex-container">
+        <div class="myitens flex-1">item aa</div>
+        <div class="myitens flex-1">item b</div>
+        <div class="myitens flex-1">item c</div>
+        <div class="myitens flex-1">item d</div>
+        <div class="myitens flex-1">item e</div>
+    </div>
+    <p class="myitens">Flex: 2 (Mix)</p>
+    <div class="flex-container">
+        <div class="myitens flex-2">item aa</div>
+        <div class="myitens flex-2">item b</div>
+        <div class="myitens flex-2">item c</div>
+        <div class="myitens flex-2">item d</div>
+        <div class="myitens flex-2">item e</div>
+    </div>
+</body>
+</html>

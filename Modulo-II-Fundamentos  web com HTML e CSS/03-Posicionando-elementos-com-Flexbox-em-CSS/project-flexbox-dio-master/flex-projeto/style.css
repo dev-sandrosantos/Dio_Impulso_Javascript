@@ -1,0 +1,152 @@
+header{
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+header .list-items{
+    display: flex;
+    max-width: 240px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items li a{
+    color: #fff;
+}
+
+img{
+    max-width: 85%;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.presentations{
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentations .text-presentations{
+    min-height: 200px;
+}
+
+.text-presentations h1{
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.text-presentations p{
+    color: #122A57;
+    margin-bottom: 15px;
+}
+
+.text-presentations a{
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    display: block;
+    line-height: 40px;
+}
+
+.about{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about h2{
+    color: #122A57;
+    font-size: 32px;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.about h2::before{
+    background-color: #122A57;
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.about p{
+    color: #122A57;
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+.container-services{
+    background-color: #122A57;
+    width: 100%;
+    padding: 3% 3%;
+}
+
+#services{
+    flex-direction: column;
+}
+#services h2{
+    color: #fff;
+    font-size: 32px;   
+    margin-bottom: 10px;
+}
+.list-services{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.list-services .item-services{
+    text-align: center;
+}
+.item-services a{
+    width: 220px;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #122A57;
+}
+.item-services p{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+}
+.item-services img{
+    width: 80%;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
