@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orange;
+}
+body h1{
+    display: flex;
+    max-width: 492px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+body p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+#counter{
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+ #counter .subtraction {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: orange;
+}
+#counter .addition {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: orange;
+}
+
+#currentNumber{
+    font-size: 34px;
+}
